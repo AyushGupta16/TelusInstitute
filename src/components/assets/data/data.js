@@ -47,8 +47,8 @@ export const courses = [
     title: "Computer Basics Course",
     lessons: 10,
     rating: "4.5 (100)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img1.jpg", // Kamaljit Kaur
+    instructorName: "Kamaljit Kaur", // Kamaljit Kaur
     category1: "Computer Science",
     category2: "Basics",
     price: 2699,
@@ -59,20 +59,20 @@ export const courses = [
     title: "120 Hours Compute Course",
     lessons: 12,
     rating: "4.8 (30)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img2.jpg", // Gurdarshan Kaur
+    instructorName: "Gurdarshan Kaur", // Gurdarshan Kaur
     category1: "Computer Science",
-    category2: "Advance",
-    price: 4000,
+    category2: "Advanced",
+    price: 8000,
   },
   {
     id: 3,
     cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
-    title: "Diploma in Computer Appplications",
+    title: "Diploma in Computer Applications",
     lessons: 18,
     rating: "4.6 (99)",
-    instructorName: "Dr. Daljeet Singh",
-    instructorImage: "images/img3.jpg",
+    instructorImage: "/images/img3.jpg", // Dr. Daljeet Singh
+    instructorName: "Dr. Daljeet Singh", // Dr. Daljeet Singh
     category1: "Computer Applications",
     category2: "Diploma",
     price: 10000,
@@ -83,10 +83,10 @@ export const courses = [
     title: "Advanced Diploma in Computer Applications",
     lessons: 22,
     rating: "4.3 (54)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img1.jpg", // Kamaljit Kaur
+    instructorName: "Kamaljit Kaur", // Kamaljit Kaur
     category1: "Computer Applications",
-    category2: "Advance Diploma",
+    category2: "Advanced Diploma",
     price: 12400,
   },
   {
@@ -95,8 +95,8 @@ export const courses = [
     title: "Advanced Diploma in Computer Financial Accounting",
     lessons: 20,
     rating: "5.0 (66)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img2.jpg", // Gurdarshan Kaur
+    instructorName: "Gurdarshan Kaur", // Gurdarshan Kaur
     category1: "Computer Applications",
     category2: "Financial Accounting",
     price: 15600,
@@ -107,20 +107,20 @@ export const courses = [
     title: "Tally with GST Course",
     lessons: 31,
     rating: "4.0 (80)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img3.jpg", // Dr. Daljeet Singh
+    instructorName: "Dr. Daljeet Singh", // Dr. Daljeet Singh
     category1: "Finance",
     category2: "GST",
     price: 4000,
   },
   {
     id: 7,
-    cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Diploma in Computer Teacher training Course",
+    cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Diploma in Computer Teacher Training Course",
     lessons: 20,
     rating: "4.9 (55)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img1.jpg", // Kamaljit Kaur
+    instructorName: "Kamaljit Kaur", // Kamaljit Kaur
     category1: "Teacher Training",
     category2: "Diploma",
     price: 15600,
@@ -131,20 +131,20 @@ export const courses = [
     title: "Diploma in Office Management Applications",
     lessons: 16,
     rating: "4.6 (90)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img2.jpg", // Gurdarshan Kaur
+    instructorName: "Gurdarshan Kaur", // Gurdarshan Kaur
     category1: "Office Management",
     category2: "Diploma",
     price: 8000,
   },
   {
     id: 9,
-    cover: "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cover: "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Data Entry Course",
     lessons: 13,
     rating: "4.2 (150)",
-    instructorImage: "images/img3.jpg",
-    instructorName: "Dr. Daljeet Singh",
+    instructorImage: "/images/img3.jpg", // Dr. Daljeet Singh
+    instructorName: "Dr. Daljeet Singh", // Dr. Daljeet Singh
     category1: "Data Entry",
     category2: "Basic",
     price: 8000,
@@ -152,41 +152,37 @@ export const courses = [
 ];
 
 
+
 export const reviews = [
   {
     id: 1,
-    image:
-      'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Rahul Sharma',
-    text: 'TelusInstitute transformed my career! The Full Stack Development course gave me the skills to land a job at a top IT company. The hands-on projects and expert mentors were invaluable.',
+    image:"images/Picture1.jpg",
+    name: 'Jasmeet Kaur (TELUSHSP001)',
+    text: 'The Computer Basics Course helped me overcome my fear of technology. From MS Paint to Emails, everything was taught clearly with hands-on practice. The instructor was very supportive throughout the journey!',
   },
   {
     id: 2,
-    image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Priya Patel',
-    text: 'I enrolled in the Data Science course at TelusInstitute, and it was a game-changer for me. The course content was comprehensive, and the placement assistance helped me secure a role as a Data Analyst.',
+    image:"images/Picture2.jpg",
+    name: 'Sufiya (TELUSHSP002)',
+    text: 'This course made me comfortable with using a computer! I can now write documents, create simple spreadsheets, and even print without asking for help. Perfect for beginners like me.',
   },
   {
     id: 3,
-    image:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Amit Singh',
-    text: 'The Digital Marketing course at TelusInstitute was exactly what I needed to start my own business. The practical training and industry insights helped me grow my online presence significantly.',
+    image:"images/Picture3.jpg",
+    name: 'Bhaviya Sharma (TELUSHSP005)',
+    text: 'Every topic was explained step-by-step with real examples. I really enjoyed learning MS Paint, MS Word, and basic Internet usage. Great for seniors and beginners! Highly recommend!',
   },
   {
     id: 4,
-    image:
-      'https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Ayush Gupta',
-    text: 'TelusInstitute’s Python Programming course helped me switch my career to software development. The mentors were incredibly supportive, and the course material was up-to-date with industry standards.',
+    image:"images/Picture4.jpg",
+    name: 'Vikram (TELUSHSP019)',
+    text: 'Very practical and to the point. We worked on real-world accounting problems, which really boosted my skills. The instructor was knowledgeable and always available for questions. I feel confident in my abilities now.',
   },
   {
     id: 5,
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Vikram Yadav',
-    text: 'The Advanced Excel course at TelusInstitute was a turning point in my career. I now handle complex data analysis tasks with ease, and my employer has recognized my improved skills with a promotion.',
+    image:"images/Picture5.jpg",
+    name: 'Rabina (TELUSHSP021)',
+    text: 'This course explained Tally and GST concepts very clearly. Now I can easily manage accounts and file GST returns without confusion.',
   },
 ];
 
@@ -195,8 +191,8 @@ export const blogs = [
     id: 1,
     cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
     title: "Celebrating Student Success: Our Top Achievers of 2023",
-    author: "Dr. Sunil Sharma",
-    authorImage: "https://randomuser.me/api/portraits/men/1.jpg",
+    author: "Dr. Daljeet Singh",
+    authorImage: "images/img3.jpg",
     topic: "Student Achievements",
     content:
       "At Telus Institute, we take immense pride in the achievements of our students. This year, our students have excelled in academics, sports, and extracurricular activities. From winning national-level competitions to publishing research papers, our students have made us proud. One of our students, Rohan Mehta, secured the first position in the National Mathematics Olympiad. Another student, Priya Singh, represented India in the International Science Fair held in Singapore. These achievements are a testament to the hard work and dedication of our students and faculty. We believe in nurturing talent and providing our students with the best opportunities to succeed. Our goal is to create future leaders who will make a positive impact on society. We are committed to supporting our students in every step of their journey. With state-of-the-art facilities and a dedicated faculty, we ensure that our students have everything they need to excel. Join us in celebrating the success of our students and be a part of their inspiring journey.",
@@ -206,8 +202,8 @@ export const blogs = [
     id: 2,
     cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     title: "The Future of Education: Trends Shaping the World",
-    author: "Prof. Anjali Mehta",
-    authorImage: "https://randomuser.me/api/portraits/women/2.jpg",
+    author: "Kamaljit Kaur",
+    authorImage: "/images/img1.jpg",
     topic: "World Education",
     content:
       "The world of education is evolving at an unprecedented pace. From online learning platforms to AI-driven classrooms, the future of education is being shaped by technology. At Telus Institute, we are at the forefront of these changes, embracing innovative teaching methods to provide our students with the best learning experience. One of the key trends is personalized learning, where students can learn at their own pace and focus on their individual strengths. Another trend is the integration of artificial intelligence in education, which helps in creating customized learning paths for students. Virtual reality is also making its way into classrooms, providing immersive learning experiences. We believe that these trends will revolutionize the way education is delivered and received. Our faculty is trained to adapt to these changes and provide our students with the skills they need to thrive in the future. We are committed to staying ahead of the curve and ensuring that our students are well-prepared for the challenges of tomorrow. Join us in shaping the future of education and be a part of this exciting journey.",
@@ -217,8 +213,8 @@ export const blogs = [
     id: 3,
     cover: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
     title: "Our Journey: How Telus Institute Became a Leader in Education",
-    author: "Mr. Rajesh Kumar",
-    authorImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    author: "Gurdarshan Kaur",
+    authorImage: "/images/img2.jpg",
     topic: "Institute History",
     content:
       "Telus Institute has come a long way since its inception. What started as a small institution with a handful of students has now become a leader in the field of education. Our journey has been marked by numerous milestones, including the establishment of state-of-the-art facilities, the introduction of innovative teaching methods, and the achievement of academic excellence. Over the years, we have expanded our reach and now have campuses in multiple cities. Our faculty comprises some of the most experienced and dedicated educators in the country. We have also forged partnerships with leading universities and organizations around the world to provide our students with global exposure. Our alumni have gone on to achieve great success in various fields, making us proud. We believe that our success is a result of our commitment to quality education and our focus on the holistic development of our students. As we look to the future, we are excited about the opportunities that lie ahead and are committed to continuing our journey of excellence.",
@@ -228,8 +224,8 @@ export const blogs = [
     id: 4,
     cover: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     title: "Innovative Teaching Methods at Telus Institute",
-    author: "Dr. Priya Singh",
-    authorImage: "https://randomuser.me/api/portraits/women/4.jpg",
+    author: "Gurdarshan Kaur",
+    authorImage: "/images/img2.jpg",
     topic: "Innovative Teaching",
     content:
       "Innovation is at the heart of our teaching methods at Telus Institute. We believe that traditional teaching methods are no longer sufficient to prepare students for the challenges of the modern world. That is why we have embraced innovative teaching methods that focus on experiential learning, critical thinking, and problem-solving. One of the key methods we use is project-based learning, where students work on real-world projects to gain practical experience. We also use flipped classrooms, where students learn the theory at home and apply it in the classroom through discussions and activities. Technology plays a crucial role in our teaching methods, with the use of smart boards, online resources, and virtual labs. Our faculty is trained to use these methods effectively and provide our students with a dynamic learning experience. We believe that these methods not only enhance learning but also make it more engaging and enjoyable for students. Our goal is to create a learning environment that fosters creativity, innovation, and a love for learning. Join us in our journey to redefine education and provide our students with the best learning experience.",
@@ -239,8 +235,8 @@ export const blogs = [
     id: 5,
     cover: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
     title: "Making a Global Impact: Our Alumni Around the World",
-    author: "Ms. Neha Gupta",
-    authorImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    author: "Dr. Daljeet Singh",
+    authorImage: "images/img3.jpg",
     topic: "Global Impact",
     content:
       "Our alumni are making waves across the globe, and we couldn't be prouder. From leading multinational companies to groundbreaking research, Telus Institute graduates are making a significant impact in various fields. One of our alumni, Ravi Verma, is now the CEO of a leading tech company in Silicon Valley. Another alumnus, Anjali Mehta, is a renowned scientist working on cutting-edge research in renewable energy. These success stories are a testament to the quality of education and the opportunities provided by Telus Institute. We believe in nurturing talent and providing our students with the skills and knowledge they need to succeed in a globalized world. Our alumni network is strong and active, with members supporting each other and contributing to the growth of the institute. We are committed to creating future leaders who will make a positive impact on society. Our goal is to ensure that our students are well-prepared for the challenges of the global economy and are equipped to make a difference in the world. Join us in celebrating the success of our alumni and be a part of our global community.",
@@ -250,8 +246,8 @@ export const blogs = [
     id: 6,
     cover: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     title: "Our Vision for the Future: Goals and Aspirations",
-    author: "Dr. Ravi Verma",
-    authorImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    author: "Kamaljit Kaur",
+    authorImage: "/images/img1.jpg",
     topic: "Future Goals",
     content:
       "We are committed to shaping the future of education and ensuring a brighter future for our students and the world. Our vision is to create a learning environment that fosters creativity, innovation, and a love for learning. We aim to provide our students with the skills and knowledge they need to succeed in a rapidly changing world. One of our key goals is to expand our reach and establish campuses in more cities. We also plan to introduce new programs and courses that are aligned with the needs of the modern world. Another goal is to strengthen our partnerships with leading universities and organizations around the world to provide our students with global exposure. We believe that education is the key to solving many of the world's problems, and we are committed to playing our part in creating a better future. Our faculty and staff are dedicated to achieving these goals and providing our students with the best possible education. Join us in our journey to shape the future of education and make a positive impact on the world.",
@@ -286,13 +282,7 @@ export const instructors = [
     subject: "Technical Instructor",
     experience: 6,
     hoursTaught: 300,
-  },
-
-  
-  
-
-  
-    
+  },  
 ];
 
 export const coursedetail = [

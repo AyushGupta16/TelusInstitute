@@ -21,10 +21,10 @@ export const About = () => {
             <AboutCard
               color="bg-[#69b3c2]"
               icon={<FaGraduationCap size={50} />}
-              title="HTML Course"
+              title="Computer Basic Course"
               desc="Master the basics of Computer"
               // image="https://via.placeholder.com/400x200"
-              backgroundImage="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              backgroundImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               rating={4.5}
               price={2699}
             />
@@ -32,12 +32,12 @@ export const About = () => {
             <AboutCard
               color="bg-[#efa7c2]"
               icon={<FaGraduationCap size={50} />}
-              title="Computer Science"
-              desc="Learn programming, algorithms, and data structures."
+              title="Tally with GST Course"
+              desc="Accounting mastery with GST compliance."
               // image="https://via.placeholder.com/400x200"
-              backgroundImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              backgroundImage="https://images.unsplash.com/photo-1573855618996-b620af5af078?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               rating={4.8}
-              price={1999}
+              price={8000}
             />
             {/* English Speaking Course */}
             <AboutCard
@@ -48,18 +48,18 @@ export const About = () => {
               // image="https://via.placeholder.com/400x200"
               backgroundImage="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
               rating={4.7}
-              price={2999}
+              price={1500}
             />
             {/* Business Course */}
             <AboutCard
               color="bg-[#8eef88]"
               icon={<FaGraduationCap size={50} />}
-              title="Business Course"
-              desc="Learn business strategies and management skills."
+              title="Diploma in Computer Teacher training Course"
+              desc="Train to teach computer skills."
               // image="https://via.placeholder.com/400x200"
-              backgroundImage="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              backgroundImage="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               rating={4.9}
-              price={1999}
+              price={15600}
             />
           </div>
         </div>
